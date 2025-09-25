@@ -11,9 +11,6 @@ export default defineNuxtConfig({
   },
   icon: {
     provider: "server",
-    serverBundle: {
-      collections: ["cif"],
-    },
   },
   css: [join(currentDir, "assets/css/main.css")],
 });
